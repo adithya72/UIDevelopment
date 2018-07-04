@@ -1,0 +1,10 @@
+Do the below excercises on your own 
+1. Create a webpage that prints your name to the screen, change the background color of the name to green.
+2. Create 4 paragraphs with text of your choice, include a line break and horizontal line after every paragraph.
+3. Create a HTML table that contain one column "Numbers" and create 10 rows, put 1 to 10 values in each row.
+4. Create some links to various websites of your choice (google, amazon, flipkart)
+5. Create links to five different websites, upon clicking on the link, it should open in new window.
+6. Create five different images. Add two lines between each image. Each image should have a title, height and width should be adjusted for a good fit.
+7. Add a link to each image, upon clicking on it, should take to a web site of your choice by opening in new window.
+8. Create a new image, that when clicked will link to itself and will display the image in the browser by itself.
+9. Make a simple page and put text inputs and a Submit button into it. Ask for the user's first name, last name, address, city, state, Pincode.
