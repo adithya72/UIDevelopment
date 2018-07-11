@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My First Webpage</title>
+	</head>
+	<body>
+		<h1>Headings</h1>
+		<h1>Welcome (h1)</h1>
+		<h2>Welcome (h2)</h2>
+		<h3>Welcome (h3)</h3>
+		<h4>Welcome (h4)</h4>
+		<h5>Welcome (h5)</h5>
+		<h6>Welcome (h6)</h6>
+		<br>
+                <hr>
+
+		<h1>Paragraphs</h1>
+		<p>This is a paragraph</p>
+		<p>This is another <strong>paragraph</strong> of <i>text</i></p>
+
+		<br>
+                <hr>
+
+		<h1>Links</h1>
+		<a title="Google Website" href="http://google.com" target="_blank">Link To Google</a>
+
+		<br>
+                <hr>
+
+		<h1>Images</h1>
+		<img src="images/Mywebimage.jpg" alt="Computer Image" width="300px" height="200px">
+
+		<br>
+                <hr>
+
+		<h1>Table</h1>
+   		
+		<table>
+			<thead>
+				<tr>
+					<th width="200px" align="left"><strong>Name</strong></th>
+					<th width="200px" align="left"><strong>Email</strong></th>
+					<th width="200px" align="left"><strong>Phone</strong></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>john@gmail.com</td>
+					<td>9849098490</td>
+				</tr>
+				<tr>
+					<td>Smith</td>
+					<td>mith@gmail.com</td>
+					<td>9885098850</td>
+				</tr>
+				<tr>
+					<td>Jones</td>
+					<td>jones@gmail.com</td>
+					<td>9886098860</td>
+				</tr>
+			</tbody>
+		</table>		
+
+		<br>
+                <hr>
+
+		<h1>Unordered List</h1>
+
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+
+		<br>
+                <hr>
+
+		<h1>Ordered List</h1>
+
+		<ol>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ol>
+
+		<br>
+		<hr>
+
+		<h1>Description List</h1>
+
+		<dl>
+			<dt>HTML</dt>
+			<dd>Hyper Text Markup Language</dd>
+			<dt>CSS</dt>
+			<dd>cascading style sheets</dd>
+			<dt>JS</dt>
+			<dd>Javascript</dd>
+		</dl>
+
+		<br>
+		<hr>
+
+		<h1>Registration Form</h1>
+
+		<form action="POST" action="index.php">
+			<fieldset>
+				<legend>Account</legend>
+				<label>Name</label><br>
+				<input type="text" name="name" required>
+				<br><br>
+
+				<label>Email</label><br>
+				<input type="email" name="email">
+				<br><br>
+
+				<label>Password</label><br>
+				<input type="password" name="password">
+				<br><br>
+			</fieldset>
+
+			<fieldset>
+				<legend>User Info</legend>
+				<label>Location</label><br>
+				<select name="location">
+					<option value="Bangalore">Bangalore</option>
+					<option value="Hyderabad" selected>Hyderabad</option>
+					<option value="Chennai">Chennai</option>
+				</select>
+				<br><br>
+
+				<label>Gender</label><br>
+				<input type="radio" name="gender" value="Male"> Male
+				<input type="radio" name="gender" value="Female" checked> Female
+				<br><br>
+
+				<label>Hobbies</label><br>
+				<input type="checkbox" name="Hobbies" value="Dancing" checked> Dancing 
+				<input type="checkbox" name="Hobbies" value="Cooking"> Cooking
+				<input type="checkbox" name="Hobbies" value="Gardening" checked> Gardening
+				<input type="checkbox" name="Hobbies" value="Painting"> Painting
+				<br><br>
+			</fieldset>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+
+	</body>
+</html>
