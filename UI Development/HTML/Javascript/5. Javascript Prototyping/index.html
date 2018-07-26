@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript | Objects & Protypes</title>
+</head>
+<body>
+<div id="test"></div>
+	<script>
+		
+		//String variable
+		var person = "John Doe";
+
+		//Object Declaration
+		var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+		//Using Javascript Keyword
+		var person = new Object();
+			person.firstName = "John";
+			person.lastName = "Doe";
+			person.age = 50;
+			person.eyeColor = "blue";
+
+		
+		//accessing ways objectName.property
+		console.log(person.firstName);
+		console.log(person["firstName"]);
+		
+		//loop throug the object
+		for (x in person) {
+			console.log(person[x]);
+		}
+
+		//The delete keyword deletes a property from an object
+		delete person.age;   // or delete person["age"]; 
+
+		//loop throug the object
+		for (x in person) {
+			console.log(person[x]);
+		}
+
+		//object functions
+		//The this Keyword
+		//In a function definition, this refers to the "owner" of the function.
+		var person = {
+			firstName: "John",
+			lastName : "Doe",
+			id       : 5566,
+			fullName : function() {
+				return this.firstName + " " + this.lastName;
+			}
+		};
+
+		console.log(person.fullName());
+
+		//JavaScript Object Constructors
+		// Constructor function for Person objects
+		function Person(first, last, age, eye) {
+			this.firstName = first;
+			this.lastName = last;
+			this.age = age;
+			this.eyeColor = eye;
+		}
+
+		// Create a Person object
+		var myFather = new Person("John", "Doe", 50, "blue");
+
+		console.log(myFather.firstName);
+
+		//Add method to a constructor
+		// Constructor function for Person objects
+		function Person(first, last, age, eye) {
+			this.firstName = first;
+			this.lastName = last;
+			this.age = age;
+			this.eyeColor = eye;
+			this.name = function() {
+				return this.firstName + " " + this.lastName
+			};
+		}
+
+		// Create a Person object
+		var myFather = new Person("John", "Doe", 50, "blue");
+		console.log(myFather.name());
+/*
+        //Using the prototype Property
+		function Person(first, last, age, eyecolor) {
+			this.firstName = first;
+			this.lastName = last;
+			this.age = age;
+			this.eyeColor = eyecolor;
+		}
+		Person.prototype.nationality = "English";
+
+		var myFather = new Person("John", "Doe", 50, "blue");
+		console.log(myFather.nationality);
+		*/
+
+
+
+
+
+
+	</script>
+</body>
+</html>
