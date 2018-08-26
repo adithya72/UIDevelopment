@@ -1,0 +1,11 @@
+Go to this web site and download latest Node version : https://nodejs.org/en/
+Once downloaded, install it by double clicking on the msi file.
+Once it is installed, go to command prompt and type "node -v" to verify if it is succesfully installed
+======================================================================================================
+Excercise 1
+======================================================================================================
+Go to command prompt 
+- Create a new directory "FirstNodeApplication"
+- Cd to FirstNodeApplication folder
+- type npm init
+- the above command will create a package.json file, which is the basic requirement for Node to run.
